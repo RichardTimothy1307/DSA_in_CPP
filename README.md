@@ -1,6 +1,8 @@
 # Data-Structures_and_Algorithms in C++
 
-![](https://user-images.githubusercontent.com/56349666/95121576-dd900e00-076c-11eb-83f8-4e2749079906.jpeg)
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/56349666/95121576-dd900e00-076c-11eb-83f8-4e2749079906.jpeg">
+</p>
 
 ## Purpose-
 1. I created this repository to push code and solved question and snippets in C++ as I started learning Data Structures and Algorithms and give anyone in need a glance or reference to it.
