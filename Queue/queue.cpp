@@ -62,7 +62,10 @@ int Dequeue(){
    
 }
 int count(){
-    return rear-front+1;
+        if(rear==-1 && front==-1)
+			return 0;
+		else
+		return rear-front+1;
 }
 
 void display(){
