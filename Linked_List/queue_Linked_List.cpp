@@ -3,7 +3,7 @@ using namespace std;
 
 //TODO:Implementation of Queue using Linked List
 
-class QNode{
+class QNode{    //* A node for queue 
 
     public:
          int data;
@@ -15,7 +15,7 @@ class QNode{
          }
 };
 
-class Queue{
+class Queue{   //*The main class with all function we store element in the Qnode class
 public:
     QNode *front,*rear;
     Queue(){
