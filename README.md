@@ -15,3 +15,4 @@
 
 ### Algorithms as of now-
 1. [Searching](https://github.com/RichardTimothy1307/DSA_in_CPP/tree/master/Searching)
+2. [Sorting](https://github.com/RichardTimothy1307/DSA_in_CPP/tree/master/Sorting)
