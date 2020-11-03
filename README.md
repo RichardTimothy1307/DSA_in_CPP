@@ -17,3 +17,4 @@
 1. [Searching](https://github.com/RichardTimothy1307/DSA_in_CPP/tree/master/Searching)
 2. [Sorting](https://github.com/RichardTimothy1307/DSA_in_CPP/tree/master/Sorting)
 3. [Bit Manipulation Basics and Leetcode Question](https://github.com/RichardTimothy1307/DSA_in_CPP/tree/master/Bit_Manipulation)
+4. [Algorithms on Arrays](https://github.com/RichardTimothy1307/DSA_in_CPP/tree/master/Algo_on_Arrays)
