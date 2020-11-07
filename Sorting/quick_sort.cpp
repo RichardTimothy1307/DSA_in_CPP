@@ -17,14 +17,14 @@ int Partition(int* a,int start,int end){
         int j;
         for(j=start;j<end;j++){
             if(a[j]<pivot){
-                int temp=a[j];
-                a[j]=a[pindex];
+                int temp=a[j];       //*If the element is less than pivot we swap that with 
+                a[j]=a[pindex];      //*pivot so that it falls before pindex if greater we do nothing
                 a[pindex]=temp;
                 pindex++;
             }
 
         }
-        int temp=a[pindex];
+        int temp=a[pindex];  //*Finally we swap the pivot with its correct position that is parition index 
         a[pindex]=a[end];
         a[end]=temp;
 
