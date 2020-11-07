@@ -10,7 +10,7 @@ void bucket_sort(float* a,int n){
     vector<float> v[10];
 
     for(int i=0;i<n;i++){
-        int index=10*a[i];
+        int index=10*a[i];     //*only for decimal number from 0.0 to 0.1 but can be modified with same logic
         v[index].push_back(a[i]);
     }
 
