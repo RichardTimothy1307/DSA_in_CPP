@@ -16,7 +16,7 @@ void counting_sort(int* a,int n,int pos){
 
     //*Cumulative frequency
     for(int i=1;i<=9;i++){
-        count[i]=count[i]+count[i-1];
+        count[i]=count[i]+count[i-1];   //*Cumulative frequency
     }
 
     for(int i=n-1;i>=0;i--){
@@ -38,8 +38,8 @@ void radix_sort(int* a,int n){
             max=a[i];
         }
     }
-    for(int pos=1;(max/pos)>0;pos*=10){
-            counting_sort(a,n,pos);
+    for(int pos=1;(max/pos)>0;pos*=10){   //*Count the digit in maximum element and simultaneoulsy call the count sort function
+            counting_sort(a,n,pos);        //*call for each position i.e ones tens hundreds 
     }
 }
 
