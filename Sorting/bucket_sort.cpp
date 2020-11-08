@@ -7,20 +7,20 @@ using namespace std;
 
 void bucket_sort(float* a,int n){
 
-    vector<float> v[10];
+    vector<float> v[10];     //* a 2d vector from 0 to 9 
 
     for(int i=0;i<n;i++){
-        int index=10*a[i];     //*only for decimal number from 0.0 to 0.1 but can be modified with same logic
-        v[index].push_back(a[i]);
+        int index=10*a[i];
+        v[index].push_back(a[i]);   //*push into the bucket according to first digit of the no.
     }
 
     for(int i=0;i<10;i++){
-        sort(v[i].begin(),v[i].end());
+        sort(v[i].begin(),v[i].end());     //*sort each bucket
     }
 
     int finalindex=0;
     for(int i=0;i<10;i++){
-        for(int j=0;j<v[i].size();j++){
+        for(int j=0;j<v[i].size();j++){     //*Combine the bucket and its elements from 0 to 9 into original array
             a[finalindex++]=v[i][j];
         }
     }
