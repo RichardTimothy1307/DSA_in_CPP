@@ -3,11 +3,9 @@ using namespace std;
 
 //TODO:To implement linear probing with arrays
 //*Hash function will be key%size  
-
-
-
-
 //*Hash function to return indexes
+
+
 int hashfunction(int key,int n){
     return (key%10);
 }
