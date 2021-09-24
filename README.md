@@ -12,6 +12,7 @@
 1. [Stack](https://github.com/RichardTimothy1307/DSA_in_cpp/tree/master/stack)
 2. [Queue](https://github.com/RichardTimothy1307/DSA_in_CPP/tree/master/Queue)
 3. [Linked List](https://github.com/RichardTimothy1307/DSA_in_CPP/tree/master/Linked_List)
+4. [Hashing---> Open Hashing and Closed Hashing](https://github.com/RichardTimothy1307/DSA_in_CPP/tree/master/Hashing)
 
 ### Algorithms as of now-
 1. [Searching](https://github.com/RichardTimothy1307/DSA_in_CPP/tree/master/Searching)
